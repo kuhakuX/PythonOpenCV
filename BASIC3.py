@@ -2,7 +2,7 @@
 
 import cv2 # cv2 มาจาก package opencv-python ลงด้วย,install with command # pip install opencv-python
 img = cv2.imread("Pic & Videos/105194786_p0.png") # img คือตัวแปรตั้งอะไรก็ได้ cv2.imread คำสั่งอ่านรูป จาก ("Pic & Videos/105194786_p0.png")
-img1080 = cv2.resize(img,(1920,1080))
+img1080 = cv2.resize(img,(1920,1080)) # กว้าง และ ยาว / wide & high /// x and y ( http://elearning.psru.ac.th/courses/296/lesson5268.html )
 
 #แสดงภาพ
 cv2.imshow("P i c T u r e",img1080) # ดึงรูปมาจาก "ตัวแปร" img หรือก็คือ "Pic & Videos/105194786_p0.png"

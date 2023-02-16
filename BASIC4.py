@@ -1,6 +1,6 @@
 #รูปแบบภาพ
 import cv2
-img = cv2.imread("Pic & Videos/105194786_p0.png",0)  # 0 = GRAY SCALE
+img = cv2.imread("Pic & Videos/105194786_p0.png",1)  # 0 = GRAY SCALE , 1 = RGB or Color , -1 Alpha channel
 img1080 = cv2.resize(img,(1920,1080))
 
 #แสดงภาพ

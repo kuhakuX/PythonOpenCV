@@ -11,3 +11,5 @@ while (cap.isOpened()):
 
 cap.release()
 cv2.destroyAllWindows()
+
+# https://www.youtube.com/watch?v=Pk7RoHIrAD4
